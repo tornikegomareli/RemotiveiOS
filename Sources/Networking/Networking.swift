@@ -16,7 +16,7 @@ typealias AppResponse =
 typealias Networking = (TargetType) -> AppResponse
 
 extension MoyaProvider {
-  func moyaRequestPublisher(_ target: Target) -> AnyPublisher<(data: Data, response: Response), MoyaError> {
+  func publisherWith(_ target: Target) -> AppResponse {
     return self.requestPublisher(target)
       .tryMap { response in
         return (data: response.data, response: response)

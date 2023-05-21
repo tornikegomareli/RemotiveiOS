@@ -107,6 +107,7 @@
 		7962D60E2A192C7F00FF5CBE /* Sources */ = {
 			isa = PBXGroup;
 			children = (
+				7962D6512A1A2C8100FF5CBE /* Domain */,
 				7962D63E2A1951EC00FF5CBE /* Networking */,
 				7962D60F2A192C7F00FF5CBE /* RemotiveApp.swift */,
 				7962D6112A192C7F00FF5CBE /* ContentView.swift */,
@@ -180,6 +181,21 @@
 				7962D64A2A19587700FF5CBE /* RemotiveService.swift */,
 			);
 			path = Services;
+			sourceTree = "<group>";
+		};
+		7962D6512A1A2C8100FF5CBE /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				7962D6522A1A2C8900FF5CBE /* Models */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		7962D6522A1A2C8900FF5CBE /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */

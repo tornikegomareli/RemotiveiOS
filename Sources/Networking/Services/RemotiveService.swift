@@ -11,14 +11,10 @@ import Foundation
 import ComposableArchitecture
 
 class RemotiveService {
-  let provider: MoyaProvider<RemotiveJobsTarget>
   let networking: Networking
 
-  init(
-    networking: @escaping Networking,
-    provider: MoyaProvider<RemotiveJobsTarget> = MoyaProvider<RemotiveJobsTarget>()) {
+  init(networking: @escaping Networking) {
     self.networking = networking
-    self.provider = provider
   }
 
   func getJobs() -> AppResponse {

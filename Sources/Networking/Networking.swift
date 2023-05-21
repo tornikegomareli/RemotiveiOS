@@ -13,9 +13,9 @@ import CombineMoya
 typealias AppResponse =
   AnyPublisher<(data: Data, response: Response), MoyaError>
 
-typealias Networking = (TargetType) -> AppResponse
+typealias Networking = (RemotiveJobsTarget) -> AppResponse
 
-extension MoyaProvider {
+extension MoyaProvider where Target: TargetType {
   func publisherWith(_ target: Target) -> AppResponse {
     return self.requestPublisher(target)
       .tryMap { response in

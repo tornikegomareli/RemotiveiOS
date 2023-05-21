@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		79593C352A1A55A9000C2E43 /* DataResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79593C342A1A55A9000C2E43 /* DataResponse.swift */; };
+		79593C372A1A55DE000C2E43 /* RemoteJob.swift in Sources */ = {isa = PBXBuildFile; fileRef = 79593C362A1A55DE000C2E43 /* RemoteJob.swift */; };
 		7962D6102A192C7F00FF5CBE /* RemotiveApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962D60F2A192C7F00FF5CBE /* RemotiveApp.swift */; };
 		7962D6122A192C7F00FF5CBE /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7962D6112A192C7F00FF5CBE /* ContentView.swift */; };
 		7962D6142A192C8100FF5CBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7962D6132A192C8100FF5CBE /* Assets.xcassets */; };
@@ -40,6 +42,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		79593C342A1A55A9000C2E43 /* DataResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataResponse.swift; sourceTree = "<group>"; };
+		79593C362A1A55DE000C2E43 /* RemoteJob.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemoteJob.swift; sourceTree = "<group>"; };
 		7962D60C2A192C7F00FF5CBE /* Remotive.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Remotive.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7962D60F2A192C7F00FF5CBE /* RemotiveApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemotiveApp.swift; sourceTree = "<group>"; };
 		7962D6112A192C7F00FF5CBE /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -194,6 +198,8 @@
 		7962D6522A1A2C8900FF5CBE /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				79593C342A1A55A9000C2E43 /* DataResponse.swift */,
+				79593C362A1A55DE000C2E43 /* RemoteJob.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -339,8 +345,10 @@
 			files = (
 				7962D6402A1951FA00FF5CBE /* Networking.swift in Sources */,
 				7962D6122A192C7F00FF5CBE /* ContentView.swift in Sources */,
+				79593C372A1A55DE000C2E43 /* RemoteJob.swift in Sources */,
 				7962D6432A19557700FF5CBE /* RemotiveJobs.swift in Sources */,
 				7962D6102A192C7F00FF5CBE /* RemotiveApp.swift in Sources */,
+				79593C352A1A55A9000C2E43 /* DataResponse.swift in Sources */,
 				7962D64B2A19587700FF5CBE /* RemotiveService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
